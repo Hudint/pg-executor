@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "rootDir": "src",
+    "declaration": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

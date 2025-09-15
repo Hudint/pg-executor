@@ -1,0 +1,25 @@
+{
+  "name": "default",
+  "version": "0.0.1",
+  "description": "default typescript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudint/default.git"
+  },
+  "author": "Hudint <Finn Weigand>",
+  "bugs": {
+    "url": "https://github.com/Hudint/default/issues"
+  },
+  "homepage": "https://github.com/Hudint/default#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
