@@ -1,0 +1,10 @@
+create table if not exists test_table (
+    id serial primary key,
+    name text not null
+);
+
+
+create table if not exists test_table2 (
+      id serial primary key,
+      name text not null
+);

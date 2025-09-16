@@ -24,7 +24,7 @@ export default class Utils {
     static getEnv(key: string, defaultValue?: string): string {
         const value = process.env[key]
         if (value || defaultValue !== undefined)
-            return value ?? defaultValue;
+            return value ?? defaultValue as string;
         throw new Error(`${key} is not in env variables!`)
     }
 

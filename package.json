@@ -1,5 +1,5 @@
 {
-  "name": "default",
+  "name": "pg-executor",
   "version": "0.0.1",
   "description": "default typescript project",
   "main": "dist/index.js",
@@ -17,9 +17,15 @@
   },
   "homepage": "https://github.com/Hudint/default#readme",
   "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
     "@types/node": "^20.12.7",
+    "@types/pg": "^8.15.5",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "pg": "^8.16.3"
   }
 }
